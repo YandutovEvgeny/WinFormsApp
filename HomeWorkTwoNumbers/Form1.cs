@@ -25,10 +25,6 @@ namespace HomeWorkTwoNumbers
             {
                 firstNumber = Convert.ToDouble(textBox1.Text);
                 secondNumber = Convert.ToDouble(textBox2.Text);
-                NumberFormatInfo numberFormatInfo = new NumberFormatInfo()
-                {
-                    NumberDecimalSeparator = ".",
-                };
                 result = firstNumber + secondNumber;
                 MessageBox.Show(result.ToString());
             }
