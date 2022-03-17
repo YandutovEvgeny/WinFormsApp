@@ -161,13 +161,14 @@ namespace TikTakToe1
             // новаяИграToolStripMenuItem
             // 
             this.новаяИграToolStripMenuItem.Name = "новаяИграToolStripMenuItem";
-            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.новаяИграToolStripMenuItem.Text = "Новая игра";
+            this.новаяИграToolStripMenuItem.Click += new System.EventHandler(this.новаяИграToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -184,13 +185,15 @@ namespace TikTakToe1
             // 
             this.оСоздателяхToolStripMenuItem.Name = "оСоздателяхToolStripMenuItem";
             this.оСоздателяхToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.оСоздателяхToolStripMenuItem.Text = "О создателях";
+            this.оСоздателяхToolStripMenuItem.Text = "О игре";
+            this.оСоздателяхToolStripMenuItem.Click += new System.EventHandler(this.оСоздателяхToolStripMenuItem_Click);
             // 
             // донатыToolStripMenuItem
             // 
             this.донатыToolStripMenuItem.Name = "донатыToolStripMenuItem";
             this.донатыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.донатыToolStripMenuItem.Text = "Донаты";
+            this.донатыToolStripMenuItem.Click += new System.EventHandler(this.донатыToolStripMenuItem_Click);
             // 
             // Form1
             // 
